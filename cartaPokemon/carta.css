@@ -1,0 +1,48 @@
+*{
+    display: block;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+
+
+.card {
+    
+    background-color: bisque;
+    width: 63mm;
+    height: 88mm;
+    margin: 40px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.cabeça {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;    
+    margin: 2mm;
+}
+    
+.nome {
+    display: flex;
+    flex-direction: column;
+    margin: 3mm;
+}    
+
+
+
+.imagem{
+    width: 100%;  
+    margin: mm;  
+}
+
+.meio{
+    flex-wrap: wrap;
+}
+
+
