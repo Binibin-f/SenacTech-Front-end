@@ -9,10 +9,13 @@
 
 .card {
     
-    background-color: bisque;
-    width: 63mm;
-    height: 88mm;
+    background-color: rgb(136, 216, 240);
+    width: 25rem;
+    height: 35rem;
     margin: 40px;
+    border-radius: 3%;
+   
+    
     
     display: flex;
     flex-direction: column;
@@ -25,7 +28,8 @@
     display: flex;
     justify-content: space-between;
     width: 100%;    
-    margin: 2mm;
+    margin-top: 2%;
+    
 }
     
 .nome {
@@ -38,11 +42,44 @@
 
 .imagem{
     width: 100%;  
-    margin: mm;  
+  
 }
 
 .meio{
-    flex-wrap: wrap;
+    display: flex;
+    margin: 10mm;
+    justify-content: space-between;
+    
+
 }
 
 
+.dados{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.artistarari{
+    display: flex;
+    justify-content:left;
+}
+
+.texto{
+    display:flex;
+    background-color: aqua;
+    flex-direction: column-reverse;
+   
+}
+
+.vida{
+    display: flex;
+    margin-top: 3%;
+}
+
+.iconagua{
+    display: flex;
+    margin:3%;
+    margin-right: 5%;
+}
